@@ -1,6 +1,5 @@
 #Baies Haqani, 6876339
 
-
 # EPI5143 Winter 2020 Quiz 3. Due Wednesday March 11th, 2020 by 11:59pm.   
 # Please provide the code (and results from console if requested) you used to execute 
 # the requested commands in each question 1 to 4 in this file.  Don't forget to include 
@@ -68,5 +67,4 @@ ggplot(data = mpg) +
 
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, color = class, shape = drv, size = cyl))+
-  
-  labs(title = 'highway fuel efficiency by engine size', x = 'Engine Size', y = 'Fuel Efficiency')
+    labs(title = 'highway fuel efficiency by engine size', x = 'Engine Size', y = 'Fuel Efficiency')
